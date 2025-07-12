@@ -192,7 +192,14 @@ class StationSelectBox extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 8),
-              Text(value ?? '선택', style: const TextStyle(fontSize: 40)),
+              Text(
+                value ?? '선택',
+                style: const TextStyle(
+                  fontSize: 40,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),

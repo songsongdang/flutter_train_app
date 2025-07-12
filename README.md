@@ -1,16 +1,7 @@
 # flutter_train_app
 
-A new Flutter project.
+필수기능 구현
+추가기능
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. 1매 이상, 원하는 매수만큼 표 선택 가능 기능
+2. 예매 완료 후 '예매가 완료되었습니다'라는 메시지가 뜨고 다시 첫 화면으로 이동
