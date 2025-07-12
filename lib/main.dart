@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_train_app/HomePage.dart';
+import 'HomePage.dart';
 
 void main() {
   runApp(const TrainApp());
@@ -15,9 +15,8 @@ class TrainApp extends StatelessWidget {
       darkTheme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.grey[900],
         appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
-        // 필요시 추가 커스터마이징
       ),
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.dark, // 항상 다크테마 적용
       home: const HomePage(),
     );
   }
